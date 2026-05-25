@@ -3,13 +3,13 @@ from flask import Flask, render_template, send_from_directory
 app = Flask(__name__)
 
 PERSONAL = {
-    "name": "Alex Morgan",
-    "first_name": "Alex",
-    "role": "Full Stack Developer & DevOps Engineer",
-    "tagline": "Building scalable cloud-native applications with modern CI/CD pipelines.",
-    "email": "alex.morgan@email.com",
-    "phone": "+1 (555) 123-4567",
-    "location": "San Francisco, CA",
+    "name": "KIRIJA",
+    "first_name": "KIRIJA",
+    "role": "B.Tech Information Technology Student | DevOps & Cloud Engineer",
+    "tagline": "Building scalable cloud-native applications with automated CI/CD pipelines.",
+    "email": "kirija@email.com",
+    "phone": "+91 98765 43210",
+    "location": "Coimbatore, Tamil Nadu, India",
     "github": "https://github.com",
     "linkedin": "https://linkedin.com",
     "twitter": "https://twitter.com",
@@ -27,9 +27,10 @@ NAV_LINKS = [
 
 ABOUT = {
     "summary": (
-        "Final-year Computer Science student passionate about cloud infrastructure, "
-        "automation, and full-stack development. I design reliable systems that ship fast — "
-        "from Flask web apps to Dockerized deployments on Render with GitHub Actions."
+        "Final-year Information Technology student at Kumaraguru College of Technology, "
+        "Coimbatore, Tamil Nadu. Passionate about cloud infrastructure, automation, and "
+        "full-stack development. I design reliable systems that ship fast — from Flask web "
+        "apps to Dockerized deployments on Render with GitHub Actions."
     ),
     "highlights": [
         "3+ years building web applications",
@@ -52,21 +53,25 @@ SKILLS = [
 
 EDUCATION = [
     {
-        "degree": "B.Tech in Computer Science",
-        "institution": "University of Technology",
+        "degree": "B.Tech in Information Technology",
+        "institution": "Kumaraguru College of Technology, Coimbatore, Tamil Nadu",
         "period": "2022 — 2026",
         "grade": "CGPA: 8.7 / 10",
         "description": (
-            "Specialization in Cloud Computing and Software Engineering. "
-            "Final-year project on automated CI/CD portfolio deployment."
+            "Pursuing Information Technology with focus on Cloud Computing and Software Engineering. "
+            "Final-year project on automated CI/CD portfolio deployment using Flask, Docker, "
+            "and GitHub Actions."
         ),
     },
     {
-        "degree": "Higher Secondary (Science)",
-        "institution": "City Science Academy",
+        "degree": "Higher Secondary (Bio Maths)",
+        "institution": "SVM, Tamil Nadu",
         "period": "2020 — 2022",
         "grade": "92%",
-        "description": "Mathematics, Physics, Chemistry with distinction in Computer Science.",
+        "description": (
+            "Mathematics, Physics, Chemistry, and Biology — Bio Maths stream with strong "
+            "foundation in science before entering B.Tech IT."
+        ),
     },
 ]
 

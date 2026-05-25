@@ -33,7 +33,7 @@ jobs:
           client = app.test_client()
           r = client.get('/')
           assert r.status_code == 200, f'Expected 200, got {r.status_code}'
-          assert b'Alex Morgan' in r.data
+          assert b'KIRIJA' in r.data
           print('Flask app test passed!')
           "
 
